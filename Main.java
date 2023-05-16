@@ -28,14 +28,64 @@ class Main {
     //vamos lá!!
 
     //input - sys.out
-    System.out.println("\n Teste.");
+    System.out.println("\n Teste.\n\n eis os de valores, de text, especiais (bool) e as estruturas...");
     //out puts-
 
     //variáveis primitivas - Simples, valor fixo
-    byte numPequeno = 124;
+    byte numPequeno = 124; //mesmo tamanho de char
     //testando envio de variaveis
-    byte poker = 54;
-  
+    byte poker;
+    poker = 54;
+    System.out.println("valor minimo: " + poker + ". eis outras var de valores:"); // dentro de "", mostra a string!
+    short inicial;
+    int idade;
+    long ouro; //int grande
+
+    //flutuantes - 
+    float peso;
+    double dobro; //dobro de tamanho alocado em relação a float
+
+    inicial = 'v';
+    idade = 32;
+    ouro = 234234;
+    peso = 2234.234f; // estranho. que f esquisito.
+    dobro = 3452345.2345234523;
+    
+    System.out.println(idade);
+    System.out.println(ouro);
+    System.out.println(inicial);
+    System.out.println(peso/3);
+    System.out.println(dobro);
+
+    inicial = 'a'; // vai imprimir ASCII
+    System.out.println(inicial);
+    char letra = 'a';
+    System.out.println(letra);
+
+
+    boolean checkagem;
+    checkagem = !false;
+    System.out.println(checkagem);
+
+
+    String teste = "ola mundo";
+    System.out.println(teste);
+
+    // e claro:
+    byte nome = 1;
+    byte Nome = 2;
+    System.out.println(nome);
+    System.out.println(Nome);
+
+
+    //Exemplo de... Lembrar que string guarda endereço.
+    char testeLetra = 'b';
+    boolean testin = (letra == testeLetra);
+    if (testin == true) {
+      System.out.println("igual");
+} else {
+      System.out.println("dif");
+}
 
     
   }
