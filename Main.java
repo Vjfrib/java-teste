@@ -33,7 +33,8 @@ class Main {
 
     //variáveis primitivas - Simples, valor fixo
     byte numPequeno = 124;
-    
+    //testando envio de variaveis
+    byte poker = 54;
   
 
     
